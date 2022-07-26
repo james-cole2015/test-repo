@@ -1,3 +1,3 @@
 output "echo-this" {
-    value = "the build is working"
+  value = "the build is working"
 }
