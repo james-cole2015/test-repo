@@ -19,5 +19,5 @@ provider "aws" {
   region                   = var.region
   shared_credentials_files = ["~/.aws/credentials"]
   profile                  = "terraform-jenkins"
-shared_config_files  = [~/.aws/config]
+  shared_config_files      = ["~/.aws/config"]
 }
