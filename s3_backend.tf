@@ -1,12 +1,12 @@
 terraform {
-  /*
+
   backend "s3" {
-    bucket         = "averyclark-tf-bucket"
+    bucket         = "glowing-memory-tf-bucket"
     key            = "terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "s3backend-tf"
+    dynamodb_table = "glowing-memory-backend"
   }
-  */
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
